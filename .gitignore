@@ -1,0 +1,10 @@
+# 1. Ignore the complete Chroma DB directory
+chroma_db_v_rag/
+
+# 2. Ignore everything inside the 'dataset' directory
+dataset/*
+
+# 3. EXCEPTION: Re-include the specific file you want to keep tracking
+# The exclamation mark (!) is used to negate a previous ignore rule.
+!dataset/enterprise-attack-17.1.json
+!dataset/enterprise-attack-19.2.json
